@@ -28,17 +28,47 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Define Module: Define a Verilog module for the D flip-flop with inputs (D, CLK) and outputs (Q, Q_bar).   
+
+2.Declare Inputs and Outputs: Declare input and output ports for the module.  
+
+3.Implement Flip-Flop Logic: Write Verilog code to implement the D flip-flop logic based on its functional table. Use a synchronous always @(posedge CLK) block to trigger the flip-flop on the positive edge of the clock signal.  
+
+4.Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the D flip-flop under different input conditions.  
+
+5.Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (D, CLK) to cover all possible input states.  
+
+6.Verify Output Behavior: Verify that the output behavior of the D flip-flop matches the expected behavior defined by its functional table.  
+
+7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.  
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.  
+Developed by: ROSHINI S  
+RegisterNumber:212223240142  
+
+
+![328814810-27eeb072-b718-4f59-8d30-fef96b2c6d91](https://github.com/Roshini2201/D-FLIPDLOP-NEGEDGE/assets/154105318/dc6cff07-a639-4e77-a7a7-2527137af044)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
 
+![328814846-c5a6d560-2a4b-442d-8245-e4f99be7c8ec](https://github.com/Roshini2201/D-FLIPDLOP-NEGEDGE/assets/154105318/20eac16c-b42f-4445-803a-ddd411f6731a)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![328814904-87e7b544-54fd-4743-bd63-672152d8a20a](https://github.com/Roshini2201/D-FLIPDLOP-NEGEDGE/assets/154105318/cd31f952-04a2-43c6-b4db-c73abfbd60b5)
 
-**RESULTS**
+
+**RESULT**
+
+Thus the program to implement a D flipflop using verilog and validating their functionality using their functional tables
+
+
+
+
+
